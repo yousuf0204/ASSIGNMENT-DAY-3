@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:rgb(135, 217, 231);    
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: gray;
+}
+
+.logo{
+    width: 10%;
+    height: 80px;
+    display: inline-block;
+    margin-left: 50px;
+    vertical-align: top;
+    font-size: 30px;
+    font-family: segoe ui;
+    font-weight: bold;
+    text-align: center;
+    line-height: 80px;
+    color:white;
+}
+
+.nav{
+    width: 40%;
+    height: 80px;
+    display: inline-block;
+    margin-left:5%;
+}
+
+.navigation>li{
+    list-style-type: none;
+    display: inline-block;
+    height: 80px;
+    width: 24.5%;
+    font-size: 19px;
+    text-align: center;
+    font-family: segoe ui;
+    line-height: 80px;
+    transition: .3s;
+    cursor: pointer;
+    vertical-align: top;
+    color:rgb(14, 13, 13);
+    font-weight: bold;
+}
+
+.contact:hover{
+    background-color: magenta  ;
+    
+}
+
+
+.dropdown1>li{
+    list-style-type: none;
+    display: inline-block;
+    height: 80px;
+    width: 100%;
+    color: white;
+    background-color:purple;
+    font-size: 19px;
+    text-align: center;
+    font-family: segoe ui;
+    line-height: 80px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.dropdown1>li:hover{
+    background-color: rgb(121, 67, 16);
+    color: black;
+}
+
+.dropdown1{
+   
+    height: 0px;
+    overflow: hidden;
+    transition: .5s;
+
+}
+
+.contact:hover > .dropdown1{
+    height: 240px;
+}
+
+.shop:hover{
+    background-color: magenta;
+}
+
+.dropdown2{
+    list-style-type: none;
+    display: inline-block;
+    height: 80px;
+    width: 100%;
+    color: white;
+    background-color: purple;
+    font-size: 19px;
+    text-align: center;
+    font-family: segoe ui;
+    line-height: 80px;
+    transition: .3s;
+    cursor: pointer;
+}
+.dropdown2>li:hover{
+    background-color: rgb(121, 67, 16);
+    color: black;
+}
+
+.dropdown2{
+   
+    height: 0px;
+    overflow: hidden;
+    transition: .5s;
+
+}
+
+.shop:hover > .dropdown2{
+    height: 240px;
+}
+   .home:hover{
+       background-color:magenta;
+   } 
+   .about:hover{
+       background-color: magenta;
+   }
